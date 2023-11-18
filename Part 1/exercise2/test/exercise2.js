@@ -13,7 +13,7 @@ describe("Exercise_2", function () {
     [owner, user] = await ethers.getSigners();
   });
 
-  it("should exploit reentrancy vulnerability", async function () {
+  it("should exploit vulnerability", async function () {
     const initialBalance = await ethers.provider.getBalance(user.address);
     console.log("User Intial Balance",(ethers.formatUnits(initialBalance)))
 
