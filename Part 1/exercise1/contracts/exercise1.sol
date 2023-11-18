@@ -1,7 +1,7 @@
 pragma solidity ^0.8.0;
 
 
-// I don't find any bugs in these two functions
+//deposit function should be payable
 
 contract Exercise_1 {
     mapping(address => uint256) public balances;
