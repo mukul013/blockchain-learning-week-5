@@ -1,13 +1,30 @@
-# Sample Hardhat Project
+# Hardhat Deployment and Testing
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+To run this git clone this repository.
 
-Try running some of the following tasks:
+Install all dependencies : 
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+npm i
 ```
+
+Compile the Hardhat Token :
+
+```shell
+npx hardhat compile
+```
+
+Run the Test Cases :
+
+```shell
+npx hardhat test
+```
+
+Contract Deployed : //https://mumbai.polygonscan.com/address/0x9C9d5C4661673c41C30F896e197C7B828967c5e1#code
+
+To Interact with Deployed Contract  :
+
+```shell
+npx hardhat run scripts/interact.js --network mumbai
+```
+
